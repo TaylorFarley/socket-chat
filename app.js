@@ -41,5 +41,5 @@ io.sockets.on('connection', function(socket){
  
  
 });
- 
-server.listen(4141);
+const PORT = process.env.PORT || 3000;
+server.listen(PORT);
