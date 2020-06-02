@@ -41,5 +41,6 @@ io.sockets.on('connection', function(socket){
  
  
 });
+//added for Heroku
 const PORT = process.env.PORT || 3000;
 server.listen(PORT);
